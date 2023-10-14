@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Purchasing Website</title>
+</head>
+
+<body>
+     <!-- Navbar -->
+     <nav>
+
+            <a href="#car-listings">Car Listings</a>
+            <button id="add-car-button">Add New Car</button>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <h1>Welcome To Matrix Motors</h1>
+         <div id="car-listings"></div> 
+    </div>
+
+
+    <!--  for adding a new car -->
+    <div id="add-car-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add a New Car</h2>
+            <form id="add-car-form">
+                <label for="car-name">Car Name:</label>
+                <input type="text" id="car-name" required>
+                <label for="car-image">Image URL:</label>
+                <input type="url" id="car-image" required>
+                <label for="car-description">Description:</label>
+                <textarea id="car-description" rows="4" required></textarea>
+                <label for="car-price">Price:</label>
+                <input type="text" id="car-price" required>
+                <button type="submit">Add Car</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- updating car details -->
+    <div id="update-car-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-update" id="close-update-car-modal">&times;</span>
+            <h2>Update Car Information</h2>
+            <form id="update-car-form">
+                <div class="form-group">
+                    <label for="update-car-name">Car Name</label>
+                    <input type="text" id="update-car-name" name="update-car-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="update-car-image">Image URL</label>
+                    <input type="url" id="update-car-image" name="update-car-image" required>
+                </div>
+                <div class="form-group">
+                    <label for="update-car-Description">Description</label>
+                    <textarea id="update-car-Description" name="update-car-Description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="update-car-price">Price</label>
+                    <input type="text" id="update-car-price" name="update-car-price" required>
+                </div>
+                <button type="submit" class="update-car-button">Update Car</button>
+            </form>
+        </div>
+    </div>
+    
+    
+     <!-- Footer section -->
+     <footer>
+        <p>&copy; 2023 Car Purchasing Website</p>
+        <p>Ernest Maina production</p>
+    </footer> <!-- Footer section -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
