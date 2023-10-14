@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let cars = [];
 
-    fetch('http://localhost:3000/cars') 
+    fetch('https://matrix-nj55.onrender.com/cars') 
     .then(response => {
         if (response.ok) {
             return response.json();
