@@ -29,11 +29,11 @@
       "price": " KES 4,800,000 ~ 5,200,000 "
     },
     {
-      "id": 5,
-      "name": "Toyota Hilux 8 Double Cab 2017 model",
+      "name": "Toyota Hilux 10 Double Cab 2017 model",
       "image": "https://www.ultimatespecs.com/cargallery/48/8698/w400_Toyota-Hilux-8-Double-Cab-2.jpg",
       "Description": "The face-lifted Hilux Double Cab 2.8 4X4 Legend RS AT upholds Toyota’s style, providing necessary aesthetic and functional enhancements to keep up with even next-gen competitors.",
-      "price": "KES 4,500,000 ~ 6,500,000"
+      "price": "KES 4,500,000 ~ 6,500,000",
+      "id": 5
     }
   ]
 }
