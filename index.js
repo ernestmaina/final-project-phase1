@@ -68,7 +68,7 @@ function closeAddCarModal() {
 
 // Function to delete a car  
 function deleteCarHttp(carId) {
-    fetch(`http://localhost:3000/cars/${carId}`, {
+    fetch(`https://matrix-nj55.onrender.com/cars/${carId}`, {
         method: 'DELETE',
     })
     .then(response => {
@@ -102,7 +102,7 @@ carListingsContainer.addEventListener("click", (event) => {
    
 // Function to add a new car to the database
     function addNewCar(newCar) {
-    fetch('http://localhost:3000/cars', {
+    fetch('https://matrix-nj55.onrender.com/cars', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
@@ -131,7 +131,7 @@ carListingsContainer.addEventListener("click", (event) => {
 
 // Function to update a car by its ID
 function updateCarHttp(carId, updatedCar) {
-    fetch(`http://localhost:3000/cars/${carId}`, {
+    fetch(`https://matrix-nj55.onrender.com/cars/${carId}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
