@@ -36,11 +36,11 @@
       "price": "KES 4,500,000 ~ 6,500,000"
     },
     {
-      "id": 6,
-      "name": "Lexus IS 2021 Model",
+      "id": 7,
+      "name": "lexus",
       "image": "https://www.ultimatespecs.com/cargallery/62/11436/w400_Lexus-IS-2021-1.jpg",
-      "Description": "Available",
-      "price": "KES 4,500,000 ~ 6,500,000"
+      "Description": "cheap",
+      "price": "4,000,000"
     }
   ]
 }
