@@ -1,0 +1,39 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "name": "BMW X3 latest model",
+        "image": "https://www.ultimatespecs.com/cargallery/11/12008/w400_BMW-iX3-8.jpg",
+        "Description": "The BMW X3 is a staple in the luxury mid-sized SUV world, and showing no sign of slowing down. Considered to be a family car, it is also considered useful in adventures",
+        "price": "KES 8,400,000 ~ 9,000,000"
+      },
+      {
+        "id": 2,
+        "name": "Mazda cx-30 2020 model ",
+        "image": "https://www.ultimatespecs.com/cargallery/44/10446/w400_Mazda-27_02_2020__CX-30-1.jpg",
+        "Description": "Mazda CX-30 is a small SUV that easily satisfies our desire for fun-to-drive transportation. The CX-30 is based on the Mazda 3 compact car, which explains its athleticism and its class-above cabin furnishings",
+        "price": "KES 4,500,000 ~ 4,900,000"
+      },
+      {
+        "name": "Mitsubishi Eclipse Cross 2018 model",
+        "image": "https://www.ultimatespecs.com/cargallery/45/9829/w400_Mitsubishi-Eclipse-Cross-29.jpg",
+        "Description": "The 2018 Mitsubishi Eclipse Cross is an all-new SUV that slots between the brand's smaller Outlander Sport and bigger Outlander. Thanks to its many standard features and peppy, turbocharged engine, the new Eclipse Cross is worth a look.",
+        "price": " KES 4,800,000 ~ 4,000,000",
+        "id": 3
+      },
+      {
+        "id": 4,
+        "name": "Subaru Outback 2019 model ",
+        "image": "https://www.ultimatespecs.com/cargallery/61/11854/w400_Subaru-Outback-(BT)-15.jpg",
+        "Description": " The Subaru Outback is a dependable SUV. It is higly reliable for any road or weather condition.",
+        "price": " KES 4,800,000 ~ 5,200,000 "
+      },
+      {
+        "id": 5,
+        "name": "Toyota Hilux 8 Double Cab 2017 model",
+        "image": "https://www.ultimatespecs.com/cargallery/48/8698/w400_Toyota-Hilux-8-Double-Cab-2.jpg",
+        "Description": "The face-lifted Hilux Double Cab 2.8 4X4 Legend RS AT upholds Toyota’s style, providing necessary aesthetic and functional enhancements to keep up with even next-gen competitors.",
+        "price": "KES 4,500,000 ~ 6,500,000"
+      }
+    ]
+  }
