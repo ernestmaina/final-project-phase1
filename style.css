@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8f9394;
+}
+/* Style for the navbar */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #515252;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav a {
+    color:rgb(253, 250, 250);
+    text-decoration: solid;
+    font-size: medium;
+    justify-content: space-around;
+    margin: 35px;
+     
+} 
+/* 
+style of the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 15px;
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #042c57;
+}
+
+.car-listing {
+    background-color: #4e4f50;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    
+}
+
+.car-listing img {
+    width: 50%;
+    
+}
+
+.car-listing h2 {
+    font-size: 1.5;
+    margin-bottom: 10px; 
+}
+
+.car-listing p {
+    margin-top: 10px;
+}
+
+.car-listing strong {
+    color: #131313;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+
+/* Style for the "Add New Car" modal */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #048bb0;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%; 
+    position: relative;
+    color: #fff;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+} 
+
+
+form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label,
+form input,
+form textarea {
+    margin: 10px 0;
+}
+
+form button {
+    margin-top: 10px;
+    background-color: #000103;
+    color: #f6efef;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #eb710e;
+}
+
+
+/* style for closing the update modal */
+#update-car-modal .close-update {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer; 
+}
+
