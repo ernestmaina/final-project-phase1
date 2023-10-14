@@ -11,8 +11,7 @@ This is a simple car purchasing website that allows users to view car listings, 
 - As a user, I can delete a car from the listings.
 - As a user, I can purchase a car, which may involve a checkout process.
 - As an admin, I can manage car data, including adding, updating, and deleting cars.
-- As an admin, I can access an admin panel for car management.
-- As a user, I can search for specific car models or use filters to narrow down my options.
+- As a user, I can scroll for specific car models or use filters to narrow down my options.
 
 ## Setup/Installation Requirements
 - Clone the repository on your device.
